@@ -74,7 +74,7 @@ dojo = {
 def printInfo(dojo):
      newstring=''
      for i in dojo:
-          newstring += f'\n{len(dojo[i])} {i} \n'
+          newstring += f'\n{len(dojo[i])} {i.upper()} \n'
           for i in dojo[i]:
                newstring +=f'{i} \n'
      return newstring
